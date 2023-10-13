@@ -17,16 +17,10 @@ mkdir cmdline-tools
 mv latest cmdline-tools
 yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses
 
-# Install api 31
-$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "build-tools;31.0.0" \
-    "platforms;android-31" \
-    "platform-tools"
-
-
 echo ":: Set ANDROID_HOME to ENV"
 echo ""
 
 echo -e "export ANDROID_HOME=$ANDROID_HOME\n" >> ~/.bashrc
 
-echo ":: Successfull"
+echo ":: Successful"
 echo ""
