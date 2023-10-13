@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SDK_URL="https://dl.google.com/android/repository/commandlinetools-linux-10406996_latest.zip"
-ANDROID_HOME=~/android-sdk
+ANDROID_HOME=/usr/android-sdk
 
 # Download Android SDK
 
